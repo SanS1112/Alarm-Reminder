@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Homemade+Apple&family=Orbitron:wght@700&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Orbitron:wght@700&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Orbitron:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Orbitron:wght@700&family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <style>
+        body
+        {
+            background-color:peachpuff;
+            
+        }
+        .Quote
+        {
+            width:600px;
+            font-family: 'Homemade Apple', cursive;
+            position:relative;
+            left:400px;
+            text-align: center;
+            margin: 0px;
+            color:black;
+            background-color: peachpuff;
+         }
+        .container
+        {
+            background-color:whitesmoke;
+            border: 5px solid black;
+            position: relative;
+            top: 0px;
+            left: 400px;
+            width: 600px;
+            height: 400px;
+            text-align: center;
+            margin-top: 0px;
+            margin-bottom: 0px;
+             }
+
+        .clock
+        { width:250px;
+            height: 238px;
+            position:relative;
+            left:170px;
+          }
+
+        .lbl1,.lbl2
+        {
+            font-family: 'Orbitron', sans-serif;
+            font-size: x-large;
+
+        }
+        .InputBlock{
+            position: relative;
+            right:5px;
+            top: 20px;
+            
+           
+        }
+        .fotr{position:relative;
+            top:0px;
+            text-align: center;
+            font-family: 'Orbitron', sans-serif;
+             
+        }
+        .Reminder
+        {font-family: 'Orbitron', sans-serif;
+            font-size:medium;
+            position: relative;
+            left: 20px;
+            background-color: whitesmoke;
+            
+        }
+        .lbl2
+        {
+            font-family: 'Orbitron', sans-serif;
+            font-size: x-large;
+            position: relative;
+            left: 10px;
+
+        }
+        #InputDate
+        {
+            position: relative;
+            left: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="Quote"><h1>Time is Non - Refundable<br> Use it Wisely!!</h1></div>
+    <div class="container">
+        <div class="clock">
+            <img src="clock.png"/>
+        </div>
+        <div class="InputBlock">
+            <label class="lbl1"> Remind Me At: </label>
+            <input type="time" id="InputTime">
+            <label class="lbl2">On</label>
+            <input type="date" id="InputDate"><br><br>
+            <button class="btn" id="btn1">Submit</button>
+            
+        </div>
+    </div>
+    <footer><p class="fotr">Made with <span style="color: red;font-size: xx-large;">&hearts;</span> by <span style="font-family: 'Great Vibes', cursive;"><strong>SS</strong></span> </p> </footer>
+<script src="alarm.js"></script>
+</body>
+</html>
